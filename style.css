@@ -24,6 +24,14 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #CD6326;
+}
+
+a:active {
+  color: #965f06;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -47,6 +55,10 @@ nav {
 
 .logo__image {
   margin-right: 15px;
+}
+
+button {
+  cursor: pointer;
 }
 
 .logo__title {
@@ -74,6 +86,11 @@ nav {
   font-size: 23px;
 }
 
+.header__navigation__look-up:hover {
+  cursor: pointer;
+  fill: #CD6326;
+}
+
 .header__navigation__button {
   width: 120px;
   height: 50px;
@@ -82,6 +99,14 @@ nav {
   font-size: 23px;
   background: none;
   color: white;
+}
+
+.header__navigation__button:hover {
+  background: #CD6326;
+}
+
+.header__navigation__button:active {
+  background: #965f06;
 }
 
 .main__wrapper {
@@ -115,6 +140,14 @@ nav {
   margin-bottom: 360px;
 }
 
+.main__button:hover {
+  background: #eb8f34;
+}
+
+.main__button:active {
+  background: #965f06;
+}
+
 .main__subtitle {
   width: 324px;
   font-size: 48px;
@@ -135,14 +168,18 @@ nav {
   align-items: center;
   max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
-  margin-bottom: 239px;
+  margin: 0 auto 239px;
 }
 
 .gallery__item {
   position: relative;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.gallery__item:hover {
+  transform: rotate(5deg);
+  box-shadow: 0 0 10px #333333;
 }
 
 .gallery__title,
@@ -167,6 +204,12 @@ nav {
   margin: 0;
 }
 
+.gallery__left:hover,
+.gallery__right:hover {
+  cursor: pointer;
+  fill: #eb8f34;
+}
+
 .main__form__title {
   max-width: 526px;
   margin: 0 auto 59px auto;
@@ -186,6 +229,14 @@ form {
 .form__button {
   margin: 0;
   padding: 0;
+}
+
+.form__button:hover {
+  background: #eb8f34;
+}
+
+.form__button:active {
+  background: #965f06;
 }
 
 .form__input {
@@ -238,4 +289,12 @@ footer {
   max-width: 240px;
   width: 100%;
   justify-content: space-between;
+}
+
+.social__item:hover {
+  fill: #eb8f34;
+}
+
+.social__item:active {
+  fill: #965f06;
 }
