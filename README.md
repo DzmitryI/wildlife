@@ -1,1 +1,1 @@
-Link: [wildlife](https://github.com/DzmitryI/wildlife/)
+Link: [wildlife](https://dzmitryi.github.io/wildlife/)
